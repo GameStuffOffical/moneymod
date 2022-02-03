@@ -5,7 +5,7 @@ size:5
 hasPower: false
 hasItems: true
 craftTime: 160
-craftEffect: rocketSmokeLarge
+craftEffect: padlaunch
 ambientSound: machine
 itemCapacity: 1000
 
