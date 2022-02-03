@@ -1,0 +1,28 @@
+name:Copper Accelerator
+desc:Acclerates copper into orbit to be handled from there.
+type: GenericCrafter
+size:3
+hasPower: false
+hasItems: true
+craftTime: 160
+craftEffect: waveEffect
+ambientSound: machine
+itemCapacity: 1000
+
+consumes: {
+  items: {
+    items: [
+      copper/1000
+    ]
+  }
+}
+	
+outputItem: money/100
+  
+requirements: [
+  surge-alloy/100
+  copper/500
+  silicon/100
+  lead/100
+  graphite/100
+]
