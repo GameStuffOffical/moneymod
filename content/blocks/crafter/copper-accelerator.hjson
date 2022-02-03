@@ -5,7 +5,7 @@ size:3
 hasPower: false
 hasItems: true
 craftTime: 160
-craftEffect: padLaunch
+// craftEffect: padLaunch
 ambientSound: machine
 itemCapacity: 1000
 
