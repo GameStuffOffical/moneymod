@@ -1,6 +1,6 @@
-name: ""
-displayName: ""
-author: ""
-description: ""
+name: "moneymod"
+displayName: "MoneyMod"
+author: "GameStuff"
+description: "Mod that adds money"
 version: 1.0
-minGameVersion: 120
+minGameVersion: 126.2
