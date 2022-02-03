@@ -1,0 +1,28 @@
+name:Silicon Deccelerator
+desc:Decelerates silicon from orbit.
+type: GenericCrafter
+size:5
+hasPower: false
+hasItems: true
+craftTime: 160
+craftEffect: padlaunch
+ambientSound: machine
+itemCapacity: 1000
+
+consumes: {
+  items: {
+    items: [
+      money/500
+    ]
+  }
+}
+	
+outputItem: silicon/900
+  
+requirements: [
+  surge-alloy/100
+  copper/500
+  silicon/100
+  lead/100
+  graphite/100
+]
