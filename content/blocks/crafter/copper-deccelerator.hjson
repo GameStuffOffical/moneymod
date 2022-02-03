@@ -1,0 +1,28 @@
+name:Copper Decelerator
+desc:Decelerates copper from orbit.
+type: GenericCrafter
+size:3
+hasPower: false
+hasItems: true
+craftTime: 160
+// craftEffect: padLaunch
+ambientSound: machine
+itemCapacity: 1000
+
+consumes: {
+  items: {
+    items: [
+      money/100
+    ]
+  }
+}
+	
+outputItem: copper/900
+  
+requirements: [
+  surge-alloy/100
+  copper/500
+  silicon/100
+  lead/100
+  graphite/100
+]
